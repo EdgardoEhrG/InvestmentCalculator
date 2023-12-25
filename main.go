@@ -10,9 +10,9 @@ func main() {
 	const inflationRate float64 = 2.5
 
 	var (
-		investmentAmount int = 1000
-		expectedReturnRate float64 = 5.5
-		years int = 10
+		investmentAmount int
+		expectedReturnRate float64
+		years int
 	)
 
 	fmt.Print("Investment Amount: ")
